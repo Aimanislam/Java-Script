@@ -1,0 +1,70 @@
+//              "VARIABLES"
+// var bonuspoint=50
+// console.log(bonuspoint)
+
+// bonuspoint= bonuspoint + 20 
+// console.log(bonuspoint)
+
+// bonuspoint= bonuspoint - 10 
+// console.log(bonuspoint)
+
+// bonuspoint= bonuspoint * 20 
+// console.log(bonuspoint)
+
+// var num1 = 5
+// var num2 = 10
+// var count = num1 + num2
+
+//                  "FUNCTION"
+// function increment(){
+//     console.log("The Button Was Clicked")
+// }
+
+// let num1 = 20
+// let num2 = 50   
+// let num3 = 35
+
+// function mycode(){
+//     let totalnum = num1+num2+num3
+//     console.log(totalnum)
+// }
+// mycode()
+
+
+           ****SAVE BUTTON****
+ HTML:: <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increament()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+
+JAVASCRIT:: let countEl = document.getElementById("count-el")
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+}
+ 
+        ****STRING****
+ EXAMPLE:  let username = "Aiman"
+let message = "You have five notifications"
+console.log(username + " " + message)
+
+        ****STRING CHALLEGE****
+let name =  "Aiman"
+let greeting = "Hi! My name is "
+let myGreeting = greeting + name 
+ console.log(myGreeting)
+
+
+       ****STRING CHALLEGE****
+
+<body>
+    <p id = "welcome-el"> </p>
+
+    </body>
+
+ let welcomeEl = document.getElementById("welcome-el")
+let name =  "Aiman"
+let greeting = "Welcome Back"
+welcomeEl.innerText = greeting + name
